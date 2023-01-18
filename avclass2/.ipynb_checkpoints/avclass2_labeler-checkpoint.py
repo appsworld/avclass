@@ -79,8 +79,6 @@ def main(args):
     # Create AvLabels object
     av_labels = AvLabels(args.tag, args.exp, args.tax,
                          args.av, args.aliasdetect)
-    print((args.tag, args.exp, args.tax,
-                         args.av, args.aliasdetect))
 
     # Build list of input files
     # NOTE: duplicate input files are not removed
